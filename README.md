@@ -1,14 +1,11 @@
 # fyodor-clj
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library to generate random data. Relies on the Java library Fyodor under the bonnet to do the actual generation.
 
 ## Usage
 
-FIXME
+Still very much a work in progress.
 
 ## License
 
-Copyright © 2014 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Not sure yet, Fyodor is released under the MIT Licence so this probably should be as well, or maybe the Eclipse licence like Clojure if that's compatible.
