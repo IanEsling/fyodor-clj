@@ -8,4 +8,7 @@
   ([] (string (int default-string-length)))
   ([x]
      (def gen (RDG/string (int x)))
+     (fn [] (.next gen)))
+  ([x chars]
+     (def gen (RDG/string (int x) (str chars)))
      (fn [] (.next gen))))
